@@ -24,7 +24,7 @@ jobs:
         draft: false
         prerelease: true
     - name: download artifacts
-      uses: actions/download-artifact@v1
+      uses: actions/download-artifact@v4.1.7
       with:
         name: uploads     
     - name: upload mac
